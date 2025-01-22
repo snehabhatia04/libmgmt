@@ -2,8 +2,10 @@ package controllers
 
 import (
 	"net/http"
-	"your_project/database"
-
+	"github.com/snehabhatia04/libmgmt/model"
+	"github.com/google/uuid"
+	"github.com/huandu/go-sqlbuilder"
+	"github.com/jmoiron/sqlx"
 	"github.com/gin-gonic/gin"
 )
 
